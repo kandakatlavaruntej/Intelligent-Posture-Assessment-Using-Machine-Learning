@@ -61,3 +61,46 @@ The posture assessment system follows a simple real-time processing pipeline:
 4. Pass the extracted features to the trained Random Forest classifier.
 5. Predict whether the sitting posture is **Correct** or **Incorrect**.
 6. Display posture feedback on the video stream in real time.
+
+---
+
+# 🛠️ Technology Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python |
+| Computer Vision | OpenCV, MediaPipe |
+| Machine Learning | Scikit-learn (Random Forest Classifier) |
+| Numerical Computing | NumPy |
+| Development Environment | Visual Studio Code, Jupyter Notebook |
+| Input Device | Webcam |
+| Operating System | Windows |
+
+---
+
+# 📂 Repository Structure
+
+```text
+intelligent-posture-assessment-using-machine-learning/
+│
+├── src/
+│   ├── posture_v1_basic.py
+│   ├── posture_v2_refactored.py
+│   └── posture_v3_holistic_rep_counter.py
+│
+├── docs/
+│   ├── dataset.md
+│   ├── model.md
+│   └── contribution.md
+│
+├── paper/
+│   └── Research_Paper.pdf
+│
+├── report/
+│   └── Project_Report.pdf
+│
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+└── README.md
+```
