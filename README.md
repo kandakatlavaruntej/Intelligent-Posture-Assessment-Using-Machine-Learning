@@ -104,3 +104,100 @@ intelligent-posture-assessment-using-machine-learning/
 ├── .gitignore
 └── README.md
 ```
+
+---
+
+# ⚙️ Installation
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/kandakatlavaruntej/intelligent-posture-assessment-using-machine-learning.git
+
+cd intelligent-posture-assessment-using-machine-learning
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the Application
+
+```bash
+python src/posture_v3_holistic_rep_counter.py
+```
+
+> **Note:** The original research dataset and trained Random Forest model are not included in this repository. The repository focuses on the implementation methodology and real-time posture detection pipeline described in the accompanying publication.
+
+
+---
+
+# 📊 Results
+
+The proposed posture assessment system achieved the following performance during evaluation on the custom dataset.
+
+| Metric | Score |
+|---------|-------|
+| Accuracy | **95.3%** |
+| Precision | **94.8%** |
+| Recall | **96.1%** |
+| F1-Score | **95.4%** |
+
+## Highlights
+
+- Real-time posture assessment using a standard webcam
+- Lightweight implementation suitable for consumer hardware
+- Accurate detection of correct and incorrect sitting posture
+- Research-backed methodology validated through experimentation
+
+  ---
+
+# 📄 Research Publication
+
+This project is based on our published research paper:
+
+**Intelligent Posture Assessment Using Machine Learning**
+
+**Journal:** Journal of Computational Analysis and Applications (JoCAAA)
+
+**Volume:** 33
+
+**Issue:** 6
+
+**Year:** 2024
+
+The complete publication is available in the **paper/** directory of this repository.
+
+---
+
+# 📚 Documentation
+
+Additional documentation is available in the **docs/** directory.
+
+- 📂 Dataset Documentation → `docs/dataset.md`
+- 🤖 Model Documentation → `docs/model.md`
+- 👨‍💻 Contribution Details → `docs/contribution.md`
+
+---
+
+# 🚀 Future Improvements
+
+- Deep Learning based posture classification
+- Multi-person posture assessment
+- Mobile application support
+- Cloud-based analytics dashboard
+- Personalized posture recommendations
+- Real-time posture history and reporting
+- Cross-platform deployment
+
+  ---
+
+# 📜 License
+
+This project is distributed under the **MIT License**.
+
+See the `LICENSE` file for complete details.
+
+
